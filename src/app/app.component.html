@@ -1,0 +1,6 @@
+  <h1>
+    Welcome to {{name}}!
+  </h1>
+  <app-stock-item [stock]="stock" (toggleFavorite)="onToggleFavorite($event)"></app-stock-item>
+  <button (click)="ChangeStockObject()">Change Stock</button>
+  <button (click)="ChangeStockPrice()">Change Price</button>
